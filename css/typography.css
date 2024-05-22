@@ -1,0 +1,121 @@
+/* *********************************
+  FONTS
+  ************************************ */
+
+@font-face {
+  font-family: "MedievalSharp";
+  src: url(../fonts/MedievalSharp-Regular.ttf);
+}
+
+@font-face {
+  font-family: "AlegreyaSansMedium";
+  src: url(../fonts/AlegreyaSans-Medium.ttf);
+}
+@font-face {
+  font-family: "AlegreyaSans-Italic";
+  src: url(../fonts/AlegreyaSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: "AlegreyaSans-Regular";
+  src: url(../fonts/AlegreyaSans-Regular.ttf);
+}
+@font-face {
+  font-family: "AlegreyaSans-Light";
+  src: url(../fonts/AlegreyaSans-Light.ttf);
+}
+
+/* *********************************
+  BUTTON
+  ************************************ */
+.button {
+  font-family: "AlegreyaSansMedium", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+/* *********************************
+  HEADER
+  ************************************ */
+.main-navigation-link {
+  font-family: "AlegreyaSansMedium", sans-serif;
+  font-size: 0.8rem;
+}
+
+/* *********************************
+  HERO
+  ************************************ */
+
+h1 {
+  font-family: "MedievalSharp", sans-serif;
+  font-size: 3.8rem;
+  line-height: 90%;
+  text-transform: uppercase;
+}
+
+h3,
+.hero-subtitle {
+  font-family: "AlegreyaSans-Light", sans-serif;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* *********************************
+  MAIN
+  ************************************ */
+h2 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-family: "AlegreyaSansMedium", sans-serif;
+  font-size: 1.4rem;
+}
+
+.first-letter::first-letter {
+  font-size: 2.4rem;
+}
+
+p,
+.wish-list,
+.form-label,
+.form-input {
+  font-family: "AlegreyaSansMedium", sans-serif;
+  font-size: 1.6rem;
+}
+
+.wish-list {
+  list-style: none;
+}
+
+h2,
+h3,
+p,
+li {
+  line-height: 160%;
+}
+
+.zitat-text {
+  line-height: 180%;
+}
+
+/* *********************************
+  ANGEBOT SECTION
+  ************************************ */
+
+.angebot-icon,
+.footer-icon {
+  font-size: 2rem;
+}
+
+/* ***TABELLE*** */
+.preis-table p {
+  font-family: "AlegreyaSans-Light", sans-serif;
+  font-size: 1.2rem;
+}
+
+/* *********************************
+ FONT SIZES PX ( :10 = REM)
+  ************************************ */
+
+/* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74  / 86 / 98  */

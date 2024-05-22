@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- *********************************
+    LINKS
+    ********************************* -->
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/queries.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Kontakt</title>
+  </head>
+  <body>
+    <header class="header-grid">
+      <div class="logo-container">
+        <img
+          class="logo"
+          loading="lazy"
+          src="images/Fokus Fina Logo schwarz PNG.png"
+          alt="Logo Fokus Fina"
+        />
+      </div>
+      <nav class="main-navigation">
+        <ul class="main-navigation-list">
+          <li><a class="main-navigation-link" href="index.html">Home</a></li>
+          <li>
+            <a class="main-navigation-link" href="ueber-mich.html"
+              >Über-mich
+            </a>
+          </li>
+          <li>
+            <a class="main-navigation-link" href="angebot.html">Angebot</a>
+          </li>
+          <li>
+            <a class="main-navigation-link" href="galerie.html">Galerie</a>
+          </li>
+          <li>
+            <a class="main-navigation-link" href="kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="contact-section-grid">
+      <form class="contact-form contact-form-contact">
+        <div class="title-box">
+          <h2 class="form-title">ANFRAGE</h2>
+          <picture class="contact-form-img-box"
+            ><source srcset="images/drache-form.webp" type="image/webp" />
+
+            <img
+              class="contact-form-img"
+              loading="lazy"
+              src="images/drache-form.JPG"
+              alt="Figur Drache"
+            />
+          </picture>
+        </div>
+
+        <label class="form-label" for="first-name">Vorname </label>
+        <input class="form-input" type="text" name="" id="first-name" />
+        <label class="form-label" for="last-name">Nachname</label>
+        <input class="form-input" type="text" name="" id="last-name" />
+        <label class="form-label" for="email">E-Mail Adresse</label>
+        <input class="form-input" type="email" name="" id="email" />
+        <label class="form-label" for="message">Deine Nachricht</label>
+        <textarea
+          class="form-input"
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+        ></textarea>
+
+        <button class="button-form button" type="submit">Absenden</button>
+      </form>
+      <div class="contact-text-box">
+        <h2 class="contact-page-title">Adresse und Telefonnummer:</h2>
+        <div class="address-text-box">
+          <p>Serafina Müller</p>
+          <p>Landbergstrasse 33</p>
+          <p>9230 Flawil</p>
+          <p>Tel: +41 79 153 38 67</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-box">
+        <div class="footer-links-box">
+          <a class="footer-link" href=""
+            ><p><small>Impressum</small></p></a
+          >
+          <a class="footer-link" href=""
+            ><p><small>AGB</small></p></a
+          >
+          <a class="footer-link" href=""
+            ><p><small>Datenschutz</small></p></a
+          >
+        </div>
+        <a class="footer-icon"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p class="copyright-box"><small>&copy 2024 Mirjam Goldiger</small></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+:root {
+  /* *********************************
+  COLOURS 
+  ************************************ */
+
+  --lightest-color-tone: #daddd8;
+  --soft-green: #c7d59f;
+  --medium-green: #b7ce63;
+  --normal-green: #6faa3a;
+  --darkest-color-tone: #4b5842;
+  --gold: #daa520;
+  --green-dark-mode: #6c584c;
+  --blue-light-dark-mode: #94d2bd;
+  --white-text-dark-mode: white;
+  --dark-text-dark-mode: #0f4c5c;
+
+  /* *********************************
+  GENERAL
+  ************************************ */
+
+  --main-border-radius: 0.8rem;
+  --header-height: 6rem;
+  --section-margin-top: 9.6rem;
+  --desktop-section-margin-top: 12.8rem;
+  --gold-border: solid 0.1rem #daa520;
+  --green-border: solid 0.1rem #4b5842;
+}
