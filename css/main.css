@@ -22,19 +22,27 @@
 
 html {
   font-size: 62.5%;
+
 }
 
 body {
   font-family: sans-serif;
-  background-color: var(--lightest-color-tone);
+  /* background-color: var(--lightest-color-tone);   */
+  background-color: #daddd8;
+  background-image: linear-gradient(0deg, #daddd8 14%, #b7ce63 49%, #c7d59f 66%, #daddd8 92%);
+  
+
 }
 
 /* ***BUTTONS GENERAL STYLES*** */
 
 .button {
+  display: -webkit-box;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   border: none;
   border-radius: var(--main-border-radius);
   padding: 1.2rem 1.6rem 1.2rem 1.6rem;
@@ -48,8 +56,10 @@ body {
   grid-template-rows: auto auto;
   grid-template-columns: 100%;
   padding: 3.2rem;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   margin-top: var(--section-margin-top);
 }
 
@@ -68,9 +78,12 @@ body {
 .ueber-mich-bottom-image-box,
 .angebot-page-image-box,
 .galerie-img-box {
+  display: -webkit-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
   max-width: 100%;
   height: auto;
 }
@@ -101,9 +114,12 @@ body {
 .text-box-angebot-page,
 .contact-text-box,
 .text-box-preise {
+  display: -webkit-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
   max-width: 100%;
   height: auto;
   padding: 2.4rem;
@@ -139,11 +155,15 @@ body {
 
 .main-navigation {
   max-width: 100%;
+  display: -webkit-box;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+          align-items: center;
 }
 .main-navigation-list {
+  display: -webkit-box;
   display: flex;
   list-style: none;
 }
@@ -168,9 +188,12 @@ body {
 }
 
 .footer-box {
+  display: -webkit-box;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
   padding: 2.4rem;
 }
 
@@ -186,8 +209,11 @@ body {
 }
 
 .footer-links-box {
+  display: -webkit-box;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
 }
 
 .footer-link {
@@ -205,8 +231,10 @@ body {
 }
 
 .copyright-box {
+  display: -webkit-box;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+          justify-content: center;
 }
 
 /* *********************************
@@ -246,10 +274,15 @@ body {
 }
 
 .hero-title {
+  display: -webkit-box;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
   color: var(--lightest-color-tone);
   max-width: 100%;
 }
@@ -276,7 +309,9 @@ body {
 .welcome-text-box {
   grid-row: 2/3;
   grid-column: 1/2;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
   gap: 1rem;
 }
 
@@ -289,13 +324,17 @@ body {
   grid-template-rows: auto auto auto;
   grid-template-columns: 100%;
   padding: 3.2rem;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   margin-top: var(--section-margin-top);
 }
 
 .wish-text-box {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
   text-align: center;
 }
 
@@ -329,6 +368,7 @@ body {
   height: auto;
   padding: 3.2rem;
   gap: 3rem;
+  display: -webkit-box;
   display: flex;
 }
 
@@ -340,7 +380,9 @@ body {
 
 .angebot-text-box {
   gap: 2rem;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
   color: var(--darkest-color-tone);
 }
 
@@ -380,8 +422,11 @@ i {
   color: var(--lightest-color-tone);
   padding: 3.2rem;
   border-radius: var(--main-border-radius);
+  display: -webkit-box;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
   max-width: 100%;
   margin: var(--section-margin-top) 0.8rem var(--header-height) 0.8rem;
 }
@@ -413,20 +458,26 @@ i {
 }
 
 .title-box {
+  display: -webkit-box;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 .contact-form-img-box {
+  display: -webkit-box;
   display: flex;
-  justify-content: flex-end;
-  flex: 20%;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-flex: 20%;
+          flex: 20%;
 }
 
 /* *********************************
    **************ÜBER MICH***************
    *********************************
     ************************************ */
+
 
 /* *********************************
    INTRO SECTION 
@@ -441,8 +492,10 @@ i {
 }
 
 .ueber-mich-title-image-box {
+  display: -webkit-box;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 .ueber-mich-intro-image {
@@ -450,7 +503,9 @@ i {
 }
 
 .ueber-mich-intro-text-box {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
   color: var(--darkest-color-tone);
 }
 
@@ -507,7 +562,9 @@ i {
 }
 
 .ueber-mich-text-box {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
   color: var(--darkest-color-tone);
 }
 
@@ -568,16 +625,21 @@ i {
 }
 
 .text-box-preise {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
 }
 /* *********************************
    TABLE PREISE
     ************************************ */
 .table-container {
   width: 100%;
+  display: -webkit-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
   padding: 0.8rem 0.8rem 2rem 0.8rem;
 }
 .preis-table {
@@ -615,6 +677,7 @@ th {
 
 .title-galerie {
   margin: var(--header-height) 0.8rem 0 0.8rem;
+  display: -webkit-box;
   display: flex;
   color: var(--darkest-color-tone);
   padding-top: 3rem;
@@ -630,12 +693,14 @@ th {
 
 .galerie-img {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   aspect-ratio: 3/2;
 }
 .galerie-img-hoch {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   aspect-ratio: 2/3;
 }
 
@@ -653,7 +718,9 @@ th {
 }
 
 .contact-text-box {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
   color: var(--darkest-color-tone);
 }
 
