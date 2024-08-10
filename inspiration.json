@@ -1,0 +1,129 @@
+[
+
+{
+  "title": "Galadriel",
+  "body": "Kleid inspiriert von Herr der Ringe. Ein Kleid welches ich schon lange verwirklichen wollte, das Lehrabschlussprojekt, gab mir die Möglichkeit, dies dann endlich umzusetzen.",
+  "thumbnail":"images/Galadriel1.jpg",
+  "material": ["Wolle (aussen)",
+  "Baumwolle (innen)"],
+  "use": "Gewandung für Anlässe",
+  
+  "year": "2018",
+  "post_id": 1
+
+},
+
+
+{
+  "title": "Musketierhut aus Leder",
+  "body": "Inspiriert aus den Musketierfilmen, welche ich toll finde. Den Hut habe ich angefertigt für meine Reisen auf Pferd." ,
+  "thumbnail":"images/hut1.jpg",
+  "material": ["Leder", 
+  "Pfaufeder"],
+  "use": "Schützt vor Regen",
+  
+  "year": "2023" ,
+  "post_id": 2
+
+},
+
+
+{
+  "title": "Miss Fortune",
+  "body":"Cosplay Kostüm für Fantasy Basel 2019. Inspiriert durch League of Legends Lieblingschampion.",
+  "thumbnail":"images/MissFortune1.jpg",
+  "material": ["Kunstleder", 
+  "Leder", 
+  "Viskose",
+   "Baumwollspitze"],
+
+  "use": "Cosplay",
+  
+  "year": "2019" ,
+  "post_id": 3
+
+},
+
+
+{
+  "title": "Zipperkleid",
+  "body": "Dieses Kleid habe ich für ein Weihnachtsessen gemacht. Es sollte schick, warm und praktisch sein. Den Schnitt habe ich selbst entworfen, es sollte ein aussergewöhnliches, einzigartiges Stück werden.",
+  "thumbnail":"images/KleidGrau2.jpg",
+  "material": ["Wolle", 
+  "Polyesterschnüre", 
+  "Metallringe", 
+  "Metallreisverschluss"],
+  "use": "praktisches Kleid für Frühling und Herbst",
+  
+  "year": "2020" ,
+  "post_id": 4
+
+},
+
+
+{
+  "title": "Mein erstes Mittelalterkleid",
+  "body":"Bevor ich meinen ersten Mittelaltermarkt besucht habe, wollte ich unbedingt ein Kleid haben. Dieses habe ich zusammen mit meiner Schwester genäht.  ",
+  "thumbnail":"images/KleidGruen1.jpg",
+  "material": ["Hanfstoff", 
+  "Baumwollbrokat", 
+  "Baumwolljacquard", 
+  "Verzierungsbänder"],
+  "use": "Mittelaltergewandung",
+  
+  "year": 2010,
+  "post_id": 5
+
+},
+
+
+{
+  "title": "3 Haselnüsse für Aschenbrödel",
+  "body":"Ich war Fan dieses Films, und musste mir unbedingt dieses Kleid daraus nachnähen.",
+  "thumbnail":"images/KleidAschenbroedel.jpg",
+  "material": ["Seidenjacquard", 
+  "Vorhangstoff"],
+  "use": "Kostüm aus Film",
+  
+  "year": "2011" ,
+  "post_id": 6
+
+},
+
+
+
+{
+  "title": "Corsage",
+  "body":"Die Corsage war ein Projekt meiner Ausbildung. Den Rock habe ich als Sommerprojekt genäht, er lässt sich gut fürs Mittelalter kombinieren. ",
+  "thumbnail":"images/corsage.jpg",
+  "material": ["Baumwolljacquard", 
+  "Baumwollprägband", 
+  "Baumwollköper"],
+  "use": "Gewandungsstück zum kombinieren",
+  
+  "year": "2017" ,
+  "post_id": 7
+
+},
+
+
+{
+  "title": "Schlittelkissen",
+  "body":"Die Kissen habe ich für einen Schlitteltag genäht. Für jeden der beim Ausflug dabei war, habe ich ein passendes Motiv aufs Kissen genäht. Die Kissen können am Schlitten befestigt werden.",
+  "thumbnail":"images/Kissen2.jpg",
+  "material": ["Wolle", "Regenstoff", "Leder", "Volumenvliess", "D-Ring"],
+  "use": "Sitzunterlage",
+  
+  "year": "2024" ,
+  "post_id": 8
+
+}
+
+]
+
+
+
+
+
+
+

@@ -28,7 +28,8 @@
 /* *********************************
   BUTTON
   ************************************ */
-.button {
+.button,
+.play-pause {
   font-family: "AlegreyaSansMedium", sans-serif;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -58,6 +59,11 @@ h3,
   font-size: 1.8rem;
   text-transform: uppercase;
   text-align: center;
+}
+
+.slides-title{
+  font-family: "AlegreyaSans-Light", sans-serif;
+  
 }
 
 /* *********************************

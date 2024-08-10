@@ -17,6 +17,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+ <!-- *********************************
+    JAVASCRIPT
+    ********************************* -->
+
+    <script src="form_validation.js" defer></script> 
 
     <title>Kontakt</title>
   </head>
@@ -24,14 +29,14 @@
   <div class="title-galerie"><h1>Kontakt</h1></div>
   <body>
     <header class="header-grid">
-      <div class="logo-container">
+      <a href="index.html" class="logo-container">
         <img
           class="logo"
           loading="lazy"
           src="images/Fokus Fina Logo schwarz PNG.png"
           alt="Logo Fokus Fina"
         />
-      </div>
+      </a>
       <nav class="main-navigation">
         <ul class="main-navigation-list">
           <li><a class="main-navigation-link" href="index.html">Home</a></li>
@@ -47,13 +52,17 @@
             <a class="main-navigation-link" href="galerie.html">Galerie</a>
           </li>
           <li>
+            <a class="main-navigation-link" href="inspiration.html">Inspiration</a>
+          </li>
+          <li>
             <a class="main-navigation-link" href="kontakt.html">Kontakt</a>
           </li>
         </ul>
       </nav>
     </header>
-    <section class="contact-section-grid">
-      <form class="contact-form contact-form-contact">
+    
+    <section class="form-section">
+      <form class="contact-form">
         <div class="title-box">
           <h2 class="form-title">ANFRAGE</h2>
           <picture class="contact-form-img-box"
@@ -68,13 +77,35 @@
           </picture>
         </div>
 
+      
+       
+        <label class="form-label" for="anrede">Anrede </label>
+        <input class="form-input" type="text" name="" id="anrede" />
+
         <label class="form-label" for="first-name">Vorname </label>
         <input class="form-input" type="text" name="" id="first-name" />
+
         <label class="form-label" for="last-name">Nachname</label>
         <input class="form-input" type="text" name="" id="last-name" />
+
+        <label class="form-label" for="streetname">Strasse</label>
+        <input class="form-input" type="text" name="" id="streetname" />
+
+        <label class="form-label" for="housenumber">Hausnummer</label>
+        <input class="form-input" type="text" name="" id="housenumber" />
+
+        <label class="form-label" for="postleitzahl">Postleitzahl</label>
+        <input class="form-input" type="text" name="" id="postleitzahl" />
+        
+        <label class="form-label" for="location">Ort</label>
+        <input class="form-input" type="text" name="" id="location" />
+
         <label class="form-label" for="email">E-Mail Adresse</label>
         <input class="form-input" type="email" name="" id="email" />
-        <label class="form-label" for="message">Deine Nachricht</label>
+
+        <label class="form-label" for="message" type="text"
+          >Deine Nachricht</label
+        >
         <textarea
           class="form-input"
           name="message"
@@ -83,17 +114,8 @@
           rows="10"
         ></textarea>
 
-        <button class="button-form button" type="submit">Absenden</button>
+        <button class="button-form button" type="submit" id="button-form">Absenden</button>
       </form>
-      <div class="contact-text-box">
-        <h2 class="contact-page-title">Adresse und Telefonnummer:</h2>
-        <div class="address-text-box">
-          <p>Serafina Müller</p>
-          <p>Landbergstrasse 33</p>
-          <p>9230 Flawil</p>
-          <p>Tel: +41 79 153 38 67</p>
-        </div>
-      </div>
     </section>
 
     <footer class="footer">

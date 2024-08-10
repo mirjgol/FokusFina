@@ -18,6 +18,12 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- *********************************
+    JAVASCRIPT
+    ********************************* -->
+
+    <script src="code.js" defer></script>
+
     <title>Fokus Fina Nähatelier</title>
   </head>
 
@@ -44,6 +50,9 @@
           </li>
           <li>
             <a class="main-navigation-link" href="galerie.html">Galerie</a>
+          </li>
+          <li>
+            <a class="main-navigation-link" href="inspiration.html">Inspiration</a>
           </li>
           <li>
             <a class="main-navigation-link" href="kontakt.html">Kontakt</a>
@@ -185,7 +194,12 @@
           <h3>Starte deine Anfrage über das Kontaktformular</h3>
         </div>
       </section>
+
+    
     </main>
+
+      <!-- *** Form Section*** -->
+
     <section class="form-section">
       <form class="contact-form">
         <div class="title-box">
@@ -202,12 +216,32 @@
           </picture>
         </div>
 
+      
+       
+        <label class="form-label" for="anrede">Anrede </label>
+        <input class="form-input" type="text" name="" id="anrede" />
+
         <label class="form-label" for="first-name">Vorname </label>
         <input class="form-input" type="text" name="" id="first-name" />
+
         <label class="form-label" for="last-name">Nachname</label>
         <input class="form-input" type="text" name="" id="last-name" />
+
+        <label class="form-label" for="streetname">Strasse</label>
+        <input class="form-input" type="text" name="" id="streetname" />
+
+        <label class="form-label" for="housenumber">Hausnummer</label>
+        <input class="form-input" type="text" name="" id="housenumber" />
+
+        <label class="form-label" for="postleitzahl">Postleitzahl</label>
+        <input class="form-input" type="text" name="" id="postleitzahl" />
+        
+        <label class="form-label" for="location">Ort</label>
+        <input class="form-input" type="text" name="" id="location" />
+
         <label class="form-label" for="email">E-Mail Adresse</label>
         <input class="form-input" type="email" name="" id="email" />
+
         <label class="form-label" for="message" type="text"
           >Deine Nachricht</label
         >
@@ -219,26 +253,100 @@
           rows="10"
         ></textarea>
 
-        <button class="button-form button" type="submit">Absenden</button>
+        <button class="button-form button" type="submit" id="button-form">Absenden</button>
       </form>
     </section>
+
+   <section class="img-slider-section">
+    
+
+        <div class="img-slider-container">
+        
+            <div class="slide">
+              <img class="slider-img"
+                class="slider-img"
+                loading="lazy"
+                src="images/KleidBlau1.JPG"
+                alt="Blaues Kleid"
+              />
+            </div>
+            <div class="slide">
+              <img
+                class="slider-img"
+                loading="lazy"
+                src="images/kleidgrau1.jpg"
+                alt="Graues Kleid"
+              />
+            </div>
+            <div class="slide">
+              <img
+                class="slider-img"
+                loading="lazy"
+                src="images/kleidweiss1.jpg"
+                alt="Weisses Kleid"
+              />
+            </div>
+            <div class="slide">
+              <img
+                class="slider-img"
+                loading="lazy"
+                src="images/kleidgruen1.jpg"
+                alt="Grünes Mittelalterkleid"
+              />
+            </div>
+            <div class="slide">
+              <img
+                class="slider-img"
+                loading="lazy"
+                src="images/Hut1.JPG"
+                alt="Hut mit Federn"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="controls-container">
+          <button class="left">
+            <i class="fa-solid fa-left-long"></i>
+          </button>
+
+
+          <button class="play-pause"> &#9658;/&#9208; 
+           
+          </button>
+          
+          
+          <button class="right">
+            <i class="fa-solid fa-right-long"></i>
+          </button>
+
+          <div class="title">
+            <h2 class="slides-title">title</h2>
+ 
+          </div>
+        </div>
+      </section>
+
+
+    
+
+        
+
+      
+    
 
     <footer class="footer">
       <div class="footer-box">
         <div class="footer-links-box">
-          <a class="footer-link" href=""
-            ><small>Impressum</small></a
-          >
-          <a class="footer-link" href=""
-            ><small>AGB</small></a
-          >
-          <a class="footer-link" href=""
-            ><small>Datenschutz</small></a
-          >
+          <a class="footer-link" href=""><small>Impressum</small></a>
+          <a class="footer-link" href=""><small>AGB</small></a>
+          <a class="footer-link" href=""><small>Datenschutz</small></a>
         </div>
-        <a aria-label="Instagram-Link" class="footer-icon"><i class="fa-brands fa-instagram"></i></a>
+        <a aria-label="Instagram-Link" class="footer-icon"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
       </div>
-     <small class="copyright-box">&copy 2024 Mirjam Goldiger</small>
+      <small class="copyright-box">&copy 2024 Mirjam Goldiger</small>
     </footer>
 
     <!-- *********************************
