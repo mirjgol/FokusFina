@@ -1,3 +1,8 @@
+/** 
+ * INSPIRATION CARDS
+ */
+
+
 getInspirationData()
 
 async function getInspirationData(){
