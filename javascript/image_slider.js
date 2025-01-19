@@ -1,75 +1,50 @@
 // ***************************IMAGE SLIDER************************** 
-// slider select
-
-
 const slider = document.querySelector(".img-slider-container");
-
-// select all slides
-
 
 function getAllSlides() {
   return document.querySelectorAll(".img-slider-container .slide");
 }
 
-// controls event listeners
-
 document.querySelector(".left").addEventListener("click", moveLeft);
 document.querySelector(".right").addEventListener("click", moveRight);
 document.querySelector(".play-pause").addEventListener("click", playPause);
-
-// variables
-
 
 let currentSlide = 1;
 let automaticSlide = false;
 let automaticSlideTimer;
 
-// controlFunctions
-
-
-
 function moveRight() {
   const allSlides = getAllSlides();
-  slider.append(allSlides[0]);
+  slider.append(allSlides[0]); // Move first slide to the end
   changeCurrentSlide("right");
   updateTitle();
+  resetTimer();
 }
 
 function moveLeft() {
   const allSlides = getAllSlides();
-  slider.prepend(allSlides[allSlides.length - 1]);
+  slider.prepend(allSlides[allSlides.length - 1]); // Move last slide to the beginning
   changeCurrentSlide("left");
   updateTitle();
+  resetTimer();
 }
-
-// slide function current
-
 
 function changeCurrentSlide(direction) {
   const allSlides = getAllSlides();
-
   if (direction === "right") {
-    currentSlide === allSlides.length ? (currentSlide = 1) : currentSlide++;
+    currentSlide = currentSlide === allSlides.length ? 1 : currentSlide + 1;
   } else {
-    currentSlide === 1 ? (currentSlide = allSlides.length) : currentSlide--;
+    currentSlide = currentSlide === 1 ? allSlides.length : currentSlide - 1;
   }
-
-  // h2 text change
-
-
   document.querySelector(".slides-title").innerText = `Slide ${currentSlide}`;
 }
 
-// title
-
-
 function updateTitle() {
   const allSlides = getAllSlides();
-  const title = allSlides[0].querySelector(".slider-img").alt;
-  document.querySelector(".controls-container h2").innerText = title;
+  const currentSlideElement = allSlides[0];
+  const title = currentSlideElement.querySelector(".slider-img").alt;
+  document.querySelector(".slides-title").innerText = title;
 }
-
-// autoslider function 3 seconds 
 
 function playPause() {
   if (automaticSlide) {
@@ -83,13 +58,17 @@ function playPause() {
   }
 }
 
-// autoslide
-
 function startAutoSlide() {
-  automaticSlideTimer = setInterval(moveRight, 3000); 
+  automaticSlideTimer = setInterval(moveRight, 3000);
   automaticSlide = true;
 }
 
+function resetTimer(){
+  if (automaticSlide){
+    clearInterval(automaticSlideTimer);
+    automaticSlideTimer = setInterval(moveRight, 3000);
+  }
+}
 
 updateTitle();
 startAutoSlide();
